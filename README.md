@@ -35,4 +35,4 @@ collect() %>%
 mutate(decade = factor(decade, labels = decade_labels))
 # Draw a boxplot of artist_hotttnesss by decade
 ggplot(hotttnesss_over_time, aes(decade, artist_hotttnesss)) + geom_boxplot()
-
+ 
